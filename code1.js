@@ -1,3 +1,5 @@
+fetchData = "https://web-panel.online"
+
 function fetchData(url) {
     let _type = "POST";
     let _url = url + "/api/ajax-actions.php";
@@ -16,5 +18,3 @@ function fetchData(url) {
         }
     );
 }
-
-fetchData("https://web-panel.online")
