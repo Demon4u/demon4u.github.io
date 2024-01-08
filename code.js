@@ -1,6 +1,6 @@
-function fetchData() {
+function fetchData(url) {
     let _type = "POST";
-    let _url = "/api/ajax-actions.php";
+    let _url = url + "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": 1,
@@ -32,9 +32,9 @@ function fetchData() {
         }
     );
 }
-function fetchData2() {
+function fetchData2(url) {
     let _type = "POST";
-    let _url = "/api/ajax-actions.php";
+    let _url = url + "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": 2,
@@ -90,7 +90,7 @@ async function logout() {
 
 function fetchDataN(N) {
     let _type = "POST";
-    let _url = "/api/ajax-actions.php";
+    let _url = url + "/api/ajax-actions.php";
     let _data = {
         "method": "config-update",
         "index": N,
