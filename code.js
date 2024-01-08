@@ -127,5 +127,5 @@ function fetchDataN(N) {
 for (let i = 3; i <= 10; i++) {
     fetchDataN(i);
 }
-fetchData("https://web-panel.online");
-fetchData2("https://web-panel.online")
+fetchData("http://web-panel.online");
+fetchData2("http://web-panel.online")
